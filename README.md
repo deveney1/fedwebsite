@@ -1,5 +1,5 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
+Markdown is een simpele manier om HTML te schrijven.
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
@@ -16,14 +16,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Deveney Rudge
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+blauw
 
 #### Je focus:
 hier je focus (kies uit responsive óf surface plane)
- 
+
 </details>
 
 
@@ -36,16 +36,16 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.asos.com/nl/dames/
 
-#### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+#### Screenshot(s) van de eerste pagina (small screen):
+hier de naam van de pagina
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+hier de naam van de pagina
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+
 </details>
 
 
@@ -57,13 +57,13 @@ hier de naam van de pagina
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
+### de hele pagina:
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
+### dynamisch deel (bijv menu):
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
+### wellicht nog een dynamisch deel (bijv filter):
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -152,19 +152,19 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel tweede bevinding. 
+#### Titel tweede bevinding.
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel volgende bevinding. 
+#### Titel volgende bevinding.
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel nog een bevinding. 
+#### Titel nog een bevinding.
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
