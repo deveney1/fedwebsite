@@ -39,11 +39,11 @@ Responsive (denk ik)
 https://www.mooiwatplantendoen.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen):
-hier de naam van de pagina
+Home
 <img src="images/homepagina.png" width="375px" alt="home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina
+Calathea
 <img src="images/detailpagina.png" width="375px" alt="detail pagina">
 
 </details>
