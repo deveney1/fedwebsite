@@ -22,7 +22,7 @@ Deveney
 blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Responsive (denk ik)
 
 </details>
 
@@ -36,15 +36,15 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.asos.com/nl/dames/
+https://www.mooiwatplantendoen.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 hier de naam van de pagina
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/homepagina.png" width="375px" alt="home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/detailpagina.png" width="375px" alt="detail pagina">
 
 </details>
 
