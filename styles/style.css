@@ -5,22 +5,34 @@
 
 @import url("https://use.typekit.net/lqq6lwf.css");
 
+:root {
+  --mainColor:white;
+  --linkColorBackground:#c1bdb9;
+  --formBackgroundColor: #f0eeec;
+  --buttonColor:#60a180;
+
+}
+
+
 body{
   font-family: futura-pt, sans-serif;
   margin:0;
-
+  width: 100%;
+  height: 100%;
 }
 
+/* basics van elementen, die allemaal gelijk blijven */
+
 h2 {
-font-weight: 700;
-font-style: normal;
-text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 p {
-font-weight: 300;
-font-style: normal;
-}
+  font-weight: 300;
+  font-style: normal;
+  }
 
 a {
   font-weight: 300;
@@ -28,53 +40,49 @@ a {
   text-transform: uppercase;
 }
 
-.blok1 {
-position:relative;
-height: 100%;
-float: left;
-padding-bottom: 0px;
-padding: 2%;
+/* eerste blok over najaar/winter */
 
+.blok1 {
+  position:relative;
+  height: 100%;
+  float: left;
+  padding-bottom: 0px;
+  padding: 2%;
 }
 
 div.tekstblok1 {
-position: absolute;
-right:0;
-left: 0;
-bottom:0;
-padding:2em;
-box-sizing: border-box;
-width: 90%;
-padding: 23px 20px;
-padding-top:2px;
-margin-left: 25px;
-text-align: left;
-background-color: white;
-margin-bottom: 2em;
-  
+  position: absolute;
+  right:0;
+  left: 0;
+  bottom:0;
+  width: 90%;
+  padding: 23px 20px;
+  padding-top:2px;
+  margin-left: 25px;
+  text-align: left;
+  background-color:var(--mainColor);
+  margin-bottom: 2em;
 }
 
 .blok1 h2 {
-  
-line-height: .9em;
+  line-height: .9em;
   font-size: 2em;
 }
 
 
-.blok1 p {
-  
+.blok1 p {  
   line-height: .9em;
   font-size: 1.5em;
 }
 
 .blok1 a {
-  background-color: #c1bdb9;
-  color: white;
-  box-sizing: border-box;
+  background-color: var(--linkColorBackground);
+  color:var(--mainColor);
   padding: 0.3em 0.3em;
   font-size: 0.8em;
 }
 
+/* tweede blok over trend collectie */
 
 .blok2 {
   position:relative;
@@ -89,19 +97,20 @@ line-height: .9em;
   right:0;
   left: 0;
   bottom:0;
-  box-sizing: border-box;
   width: 90%;
   padding: 22px 20px;
   padding-top:10px;
   padding-bottom: 10px;
   margin-left: 12px;
   text-align: left;
-  background-color: white;
+  background-color: var(--mainColor);
   margin-bottom: 2em;
   font-weight: 500;
   font-size: 1.1em;
     
   }
+
+  /* derde blok over een weelderig outdoor border */
 
   .blok3 {
     position:relative;
@@ -117,31 +126,28 @@ line-height: .9em;
     left: 0;
     bottom:0;
     padding:2em;
-    box-sizing: border-box;
     width: 90%;
     padding: 23px 20px;
     padding-top:2px;
     margin-left: 12px;
     text-align: left;
-    background-color: white;
+    background-color: var(--mainColor);
     margin-bottom: 2em;
   }
 
   .blok3 h2 {
-
-  font-weight: 500;
-  font-size: 1.1em;
+    font-weight: 500;
+    font-size: 1.1em;
   }
 
   .blok3 a {
-    background-color: #c1bdb9;
-    color: white;
-    box-sizing: border-box;
+    background-color: var(--linkColorBackground);
+    color: var(--mainColor);
     padding: 0.3em 0.3em;
     font-size: 0.8em;
   }
 
-
+/* vierde blok over nazomeren met groenrijk */
 
 
   .blok4 {
@@ -158,44 +164,41 @@ line-height: .9em;
     left: 0;
     bottom:0;
     padding:2em;
-    box-sizing: border-box;
     width: 90%;
     padding: 23px 20px;
     padding-top:2px;
     margin-left: 12px;
     text-align: left;
-    background-color: white;
+    background-color: var(--mainColor);
     margin-bottom: 2em;
   }
 
   .blok4 h2 {
-
   font-weight: 500;
   font-size: 1.1em;
   }
 
   .blok4 a {
-    background-color: #c1bdb9;
-    color: white;
-    box-sizing: border-box;
+    background-color: var(--linkColorBackground);
+    color:var(--mainColor);
     padding: 0.3em 0.3em;
     font-size: 0.8em;
   }
 
 
+/* blokje over nieuwsbrief aanmelden formulier */
 
-
-  .nieuwsbrief {
+  .nieuwsbriefsite {
     position:relative;
     height: 100%;
     float: left;
-    border-style: dotted;
-    
+    padding-bottom: 0em;
+    padding: 2%;
   }
-
+  
   div.nieuwsbrieftekst {
-    position: absolute;
-   background-color: #f0eeec;
+   position: absolute;
+   background-color:var(--formBackgroundColor);
    height: 19em;
    width: 15em;
    text-align: center;
@@ -203,11 +206,115 @@ line-height: .9em;
   }
 
   .nieuwsbrief a {
-
-    background-color: #60a180;
-    color: white;
-    box-sizing: border-box;
+    background-color: var(--buttonColor);
+    color: var(--mainColor);
     padding: 0.3em 3em;
     font-size: 0.8em;
   }
 
+  input[type=text] {
+  padding: 10px 7px;
+  border-style: none;
+  margin: 1em;
+  }
+
+/* vijfde blok over doorlopend plantpatroon */
+
+.blok5 {
+  position:relative;
+  height: 100%;
+  float: left;
+  padding-bottom: 0em;
+  padding: 2%;
+}
+
+div.tekstblok5 {
+  position: absolute;
+  right:0;
+  left: 0;
+  bottom:0;
+  padding:2em;
+  width: 90%;
+  padding: 23px 20px;
+  padding-top:2px;
+  margin-left: 12px;
+  text-align: left;
+  background-color: var(--mainColor);
+  margin-bottom: 2em;
+}
+
+.blok5 h2 {
+font-weight: 500;
+font-size: 1.1em;
+}
+
+.blok5 a {
+  background-color: var(--linkColorBackground);
+  color: var(--mainColor);
+  padding: 0.3em 0.3em;
+  font-size: 0.8em;
+}
+
+/* zesde blok over nazomeren met groenrijk */
+
+
+.blok6 {
+  position:relative;
+  height: 100%;
+  float: left;
+  padding-bottom: 0em;
+  padding: 2%;
+}
+
+div.tekstblok6 {
+  position: absolute;
+  right:0;
+  left: 0;
+  bottom:0;
+  padding:2em;
+  width: 90%;
+  padding: 23px 20px;
+  padding-top:2px;
+  margin-left: 12px;
+  text-align: left;
+  background-color: var(--mainColor);
+  margin-bottom: 2em;
+}
+
+.blok6 h2 {
+font-weight: 500;
+font-size: 1.1em;
+}
+
+.blok6 a {
+  background-color: var(--linkColorBackground);
+  color: var(--mainColor);
+  padding: 0.3em 0.3em;
+  font-size: 0.8em;
+}
+
+.toonmeerbutton {
+  position: relative;
+  height: 19em;
+  width: 15em;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ .toonmeerbutton a {
+  background-color: var(--buttonColor);
+  color: var(--mainColor);
+  padding: 0.3em 3em;
+  font-size: 0.8em;
+  
+ }
+
+
+footer {
+  position: relative;
+  background-color: #f0eeec;
+  float: left;
+  width: 100%;
+  
+
+}

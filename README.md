@@ -233,8 +233,11 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+2. https://helpx.adobe.com/fonts/using/add-fonts-website.html
+3. https://careerkarma.com/blog/css-class-vs-id-2/
+4. https://www.washington.edu/accesscomputing/webd2/student/unit3/module5/lesson1.html
+5. https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/
+6. Boek -  HTML & CSS design and build websites, Jon Duckett
 
 </details>
