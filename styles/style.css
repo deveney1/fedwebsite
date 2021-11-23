@@ -3,3 +3,89 @@
   box-sizing:border-box;  
 }
 
+
+
+
+/******************************/
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+
+:root {
+  --mainColor:white;
+  --linkColorBackground:#c1bdb9;
+  --formBackgroundColor: #f0eeec;
+  --buttonColor:#60a180;
+}
+
+
+
+
+/******************************/
+/* ALGEMENE STIJLEN HTML + BODY */
+/******************************/
+
+body{
+  font-family: futura-pt, sans-serif;
+  line-height: 1.5em;
+}
+
+
+
+
+
+/********************/
+/* HEADER */
+/********************/
+
+header nav  { 
+  list-style-type: none;
+  color: var(--linkColorBackground);
+}
+
+header li {
+  font-size: .8em;
+  list-style-type: none;
+}
+
+
+
+
+
+/********************/
+/* STIJLEN ELEMENTEN */
+/********************/
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.3em;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
+  font-style: normal;
+  }
+
+a {
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/********************/
+/* FOOTER */
+/********************/
+
+footer {
+  background-color:var(--formBackgroundColor);
+  padding: 1em;
+}
