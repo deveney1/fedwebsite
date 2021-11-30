@@ -21,15 +21,22 @@
 
 
 /******************************/
-/* ALGEMENE STIJLEN HTML + BODY */
+/* ALGEMENE STIJLEN MAIN + BODY */
 /******************************/
 
 body{
   font-family: futura-pt, sans-serif;
   line-height: 1.5em;
+  background-color: var(--mainColor);
+  width: 100%;
+  height: 100vh;
 }
 
 
+main {
+  display:grid;
+  margin:1em;
+}
 
 
 
@@ -45,6 +52,7 @@ header nav  {
 header li {
   font-size: .8em;
   list-style-type: none;
+  display: inline;
 }
 
 
@@ -56,26 +64,35 @@ header li {
 /********************/
 
 img {
+  display: block;
   max-width: 100%;
+  
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1em;
   font-style: normal;
   text-transform: uppercase;
+
 }
 
 p {
   font-weight: 300;
   font-style: normal;
+  font-size: .8em;
+
   }
 
 a {
   font-weight: 300;
   font-style: normal;
+  font-size: .7em;
   text-transform: uppercase;
+  text-align: left;
+
 }
+
 
 
 
@@ -89,3 +106,101 @@ footer {
   background-color:var(--formBackgroundColor);
   padding: 1em;
 }
+
+
+
+
+
+/********************/
+/* ARTICLE 1 - NAJAAR/WINTER */
+/********************/
+
+article:nth-of-type(1) {
+  max-width: 20em;
+}
+
+
+
+article {
+position: relative;
+max-width: 12em;
+margin: 1em;
+
+
+ 
+}
+
+article h2 {
+  position:absolute;
+  left:1em;
+  right:1em;
+  bottom:1em;
+  margin:0;
+  padding:.5em;
+  padding-bottom: 3em;
+  background-color: var(--mainColor);
+ }
+
+ article p {
+  position:absolute;
+  left:2em;
+  right:1em;
+  bottom: 2.5em;
+  
+ }
+ 
+ article a {
+  position:absolute;
+  bottom: 2em;
+  background-color: var(--linkColorBackground);
+  color: var(--mainColor);
+  padding: .1em;
+  left:2.1em;
+  
+
+ }
+ 
+
+
+
+
+ /********************/
+/* footer*/
+/********************/
+
+
+footer {
+  background-color:var(--formBackgroundColor);
+  position: relative;
+  padding: 1em;
+}
+
+footer h2 {
+  padding-bottom: 0em;
+
+}
+
+footer a {
+  color: var(--buttonColor);
+}
+
+
+
+nav  { 
+  list-style-type: none;
+  color: var(--linkColorBackground);
+  position: relative;
+
+}
+
+li {
+  display: inline;
+  text-align: left;
+  margin-left: 0em;
+  font-size: .8em;
+list-style-type:none;
+
+}
+
+
+ 
